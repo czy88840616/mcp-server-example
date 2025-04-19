@@ -1,0 +1,18 @@
+{
+  "name": "mcp-server-example",
+  "version": "0.0.4",
+  "description": "MCP Server Example",
+  "main": "server.js",
+  "bin": {
+    "mcp-server-example": "./server.js"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.6.0",
+    "zod": "^3.24.2"
+  },
+  "author": "czy88840616@gmail.com",
+  "license": "MIT"
+}
